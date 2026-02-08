@@ -90,7 +90,7 @@ module.exports = async (req, res) => {
     if (!playerId) {
         return res.status(400).json({
             success: false,
-            error: 'ID do jogador não fornecido'
+            error: 'ID do jogador não fornecido use ?id=xxxxxxxx'
         });
     }
 
