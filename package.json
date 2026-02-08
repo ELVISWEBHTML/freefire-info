@@ -1,0 +1,12 @@
+{
+  "name": "freefire-api",
+  "version": "1.0.0",
+  "description": "API para consultar perfis de jogadores do Free Fire",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "keywords": ["freefire", "api", "vercel"],
+  "author": "",
+  "license": "MIT"
+}
