@@ -12,12 +12,12 @@
   ],
   "routes": [
     {
-      "src": "/jogador(.*)",
-      "dest": "/api/index.js"
-    },
-    {
       "src": "/guilda(.*)",
       "dest": "/api/guilda.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.js"
     }
   ]
 }
