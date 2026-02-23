@@ -4,12 +4,20 @@
     {
       "src": "api/index.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "api/guilda.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/api/index.js"
+    },
+    {
+      "src": "/guilda(.*)",
+      "dest": "/api/guilda.js"
     }
   ]
 }
